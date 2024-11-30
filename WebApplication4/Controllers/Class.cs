@@ -34,5 +34,10 @@ namespace WebApplication4.Controllers
            
 
         }
+        public IActionResult Edit()
+        {
+            return View();
+
+        }
     }
 }
